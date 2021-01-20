@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@900&family=Black+Ops+One&family=Monoton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: whitesmoke;
+}
+.desktop{
+    display: none;
+    position: absolute;
+    text-align: center;
+    font-size: 3rem;
+}
+header{
+    padding: 10px;
+    height: fit-content;
+}
+header .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    width: 26px;
+    height: 26px;
+}
+.navigation{
+    display: none;
+}
+header nav{
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
+header ul li{
+    list-style-type: none;
+    width: 100%;
+    margin-top: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    color: blue;
+}
+header ul li a:hover{
+    background-color: whitesmoke;
+    color: blue;
+}
+
+.mainContent .greeting{
+    height: 90vh;
+    background-image: url(/images/tech.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,.9);
+    position: relative;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    padding-top: 4rem;
+}
+.greeting .intro{
+    position: relative;
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+}
+.greeting .intro::first-line{
+    font-size: 4rem;
+}
+.greeting img{
+    width: 150px; height: 150px;
+}
+.intro span{
+    font-size: 4rem;
+}
+
+.about{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 10px;
+}
+.me{
+    margin: 5px;
+}
+.about .me img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.6),
+                -2px -2px 5px rgba(0,0,0,.6);
+}
+.me .name{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.me q{
+    padding: 5px 20px;
+}
+.skills{
+    padding: 10px;
+}
+.skills div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 5px;
+}
+.skills .meter{
+    width: 60vw;
+    height: 15px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.skills .meter .fill{
+    height: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.7);
+}
+
+.meter .html{
+    width: 55vw;
+    background-color: blue;
+}
+.meter .css{
+    width: 50vw;
+    background-color: red;
+}
+.meter .js{
+    width: 45vw;
+    background-color: green;
+}
+.meter .ts{
+    width: 30vw;
+    background-color: yellow;
+}
+.meter .react{
+    width: 50vw;
+    background-color: blue;
+}
+.meter .php{
+    width: 35vw;
+    background-color: green;
+}
+.meter .mysql{
+    width: 55vw;
+    background-color: orange;
+}
+.meter .java{
+    width: 50vw;
+    background-color: red;
+}
+.meter .py{
+    width: 45vw;
+    background-color: blue;
+}
+
+.projects .more{
+    float: right;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.projects .more:focus{
+    border: 3px solid skyblue;
+}
+
+footer{
+    clear: both;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+}
+@media only screen and (min-width:500px){
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+}
