@@ -35,29 +35,29 @@
     text-shadow: 1px 1px 2px gold;
 }
 .projects .main .play-store{
-    background-image: url(/images/play-store.png);
+    background-image: url(../images/play-store.png);
 }
 .projects .main .todo{
-    background-image: url(/images/todo.png);
+    background-image: url(../images/todo.png);
 }
 .projects .main .instagram{
-    background-image: url(/images/instagram.png);
+    background-image: url(../images/instagram.png);
 }
 .projects .main .flipkart{
-    background-image: url(/images/flipkart.png);
+    background-image: url(../images/flipkart.png);
 }
 .projects .main .filter{
-    background-image: url(/images/filter.png);
+    background-image: url(../images/filter.png);
 }
 .projects .main .testimonial{
-    background-image: url(/images/testimonial.png);
+    background-image: url(../images/testimonial.png);
 }
 .projects .main .calculator{
-    background-image: url(/images/calculator.png);
+    background-image: url(../images/calculator.png);
 }
 .projects .main .clock{
-    background-image: url(/images/analog-clock.png);
+    background-image: url(../images/analog-clock.png);
 }
 .projects .main .colorGen{
-    background-image: url(/images/random-hex.png);
+    background-image: url(../images/random-hex.png);
 }
