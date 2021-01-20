@@ -56,7 +56,7 @@ header ul li a:hover{
 
 .mainContent .greeting{
     height: 90vh;
-    background-image: url(/images/tech.jpg);
+    background-image: url(../images/tech.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
