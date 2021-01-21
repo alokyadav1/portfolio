@@ -177,6 +177,7 @@ header ul li a:hover{
     border: none;
     border-radius: 5px;
     outline: none;
+    cursor: pointer;
 }
 .projects .more:focus{
     border: 3px solid skyblue;
@@ -195,10 +196,76 @@ footer img{
     height: 30px;
 }
 @media only screen and (min-width:500px){
-    .mobile{
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 8vh;
+    }
+    header .top{
+        width: 60vw;
+    }
+    header .navigation{
+        display: block;
+        width: 40vw;
+        margin-top: 0;
+    }
+    header nav ul li{
+        margin-top: 0;
+    }
+    header nav ul li a:hover{
+        color: orange;
+    }
+    header nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    header .top img{
         display: none;
     }
-    .desktop{
-        display: block;
+
+    .mainContent .greeting{
+        all:unset;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 92vh;
+    }
+    .mainContent .greeting #mobile{
+        display: none;
+    }
+    .mainContent .greeting .intro-container{
+        position: relative;
+        width: 50vw;
+        height: 100%;
+        background-image: linear-gradient(#231B40, #221D44,#25214D,#241F48);
+        color: white;
+    }
+    .intro-container .intro{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4rem;
+    }
+    .intro-container .intro::first-line{
+        font-size: 5rem;
+    }
+    .mainContent .greeting #desktopbg{
+        width: 50vw;
+        height: 100%;
+        background-image: url(../images/tech.jpg);
+    }
+
+    .skills div{
+        display: flex;
+        width: 75vw;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .projects .main a{
+        box-shadow: 2px 2px 5px rgba(0,0,0,.6);
     }
 }
