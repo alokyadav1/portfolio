@@ -256,6 +256,7 @@ footer img{
         width: 50vw;
         height: 100%;
         background-image: url(../images/tech.jpg);
+        background-repeat:round;
     }
 
     .skills div{
